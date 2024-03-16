@@ -39,14 +39,16 @@ namespace itm.csharp.basic
             int numero2 = int.Parse(Console.ReadLine());
 
             if (numerop > numero2)
+
             {
-                Console.WriteLine($"Los números son iguales: {numerop} y {numero2}.");
+                 int resultado = (numerop * 2);
+                Console.WriteLine($"El doble de {numerop} es {resultado}.");
+               
             }
 
             else if (numerop == numero2)
             {
-                int resultado = (numerop * 2);
-                Console.WriteLine($"El doble de {numerop} es {resultado}.");
+                 Console.WriteLine($"Los números son iguales: {numerop} y {numero2}.");
             }
             else
             {
